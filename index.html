@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Conteneur du logo principal -->
+        <div class="header">
+            <!-- Logo Wave -->
+            <div class="logo-container">
+                <img src="logo-wave.png" alt="Logo Wave" class="logo">
+            </div>
+
+            <!-- Logo Orange Money (en haut à droite) -->
+            <div class="logo-orange-container">
+                <img src="logo-orangemoney.png" alt="Logo Orange Money" class="logo-orange">
+            </div>
+        </div>
+
+        <!-- Solde -->
+        <div class="solde-container">
+            <h2>Votre solde</h2>
+            <p id="solde">10 000 FCFA</p>
+        </div>
+
+        <!-- Bouton de génération de compte -->
+        <div class="button-container">
+            <button id="generateAccount" class="btn">Générer un autre compte Wave</button>
+        </div>
+
+        <!-- Section QR Code -->
+        <div class="qr-code-container">
+            <img src="qrcode.png" alt="QR Code" class="qr-code">
+        </div>
+
+        <!-- Section Retrait vers Orange Money -->
+        <div class="orange-money-container">
+            <button id="withdrawOrange" class="btn orange-btn">Retirer vers Orange Money</button>
+            <p class="withdraw-number">Numéro de retrait: +22657855951</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

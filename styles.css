@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Couleur bleu clair pour l'arrière-plan */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; /* Couleur blanche pour le conteneur */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative; /* Pour permettre le positionnement absolu à l'intérieur */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    /* Aucune modification nécessaire */
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-orange-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-orange {
+    width: 120px; /* Taille du logo Orange Money */
+}
+
+.solde-container {
+    margin-bottom: 20px;
+}
+
+#solde {
+    font-size: 24px;
+    color: #007bff; /* Couleur bleue pour le texte du solde */
+}
+
+.button-container, .orange-money-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px; /* Espace supplémentaire */
+}
+
+.btn {
+    background-color: #007bff; /* Couleur bleue pour les boutons */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+.orange-btn {
+    background-color: #ff7f00; /* Couleur orange pour le bouton Orange Money */
+}
+
+.orange-btn:hover {
+    background-color: #e66a00; /* Couleur plus foncée au survol pour Orange Money */
+}
+
+.qr-code-container {
+    margin-top: 20px; /* Espace au-dessus du QR Code */
+}
+
+.qr-code {
+    width: 150px; /* Taille du QR Code */
+    height: 150px;
+    border: 1px solid #007bff; /* Bordure bleue autour du QR Code */
+}
+
+.withdraw-number {
+    font-size: 14px;
+    color: #333; /* Couleur gris foncé pour le numéro de retrait */
+    margin-top: 10px; /* Espacement au-dessus du numéro de retrait */
+}
